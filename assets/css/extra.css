@@ -1,0 +1,65 @@
+.form-section {
+  background-color: #fff; /* Light theme default */
+  border: 1px solid #ccc; /* Light theme border */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 5px;
+}
+
+.dark-theme .form-section {
+  background-color: #333; /* Dark theme background */
+  border-color: #444; /* Dark theme border */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /* Light theme default */
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.dark-theme input, .dark-theme textarea {
+  border-color: #444; /* Dark theme border */
+}
+
+button[type="submit"] {
+  background-color: #007bff; /* Blue button */
+  color: #fff; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc; /* Darker blue on hover */
+}
+
+.dark-theme button[type="submit"] {
+  background-color: #555; /* Gray button for dark theme */
+  color: #eee; /* White text for dark theme */
+}
+@media (max-width: 768px) {
+  .form-section {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  input, textarea {
+    font-size: 16px;
+  }
+}

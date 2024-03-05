@@ -17,5 +17,10 @@
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.9",
     "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "compass-mixins": "^0.12.12",
+    "css3": "^0.0.1",
+    "node-sass": "^9.0.0"
   }
 }
